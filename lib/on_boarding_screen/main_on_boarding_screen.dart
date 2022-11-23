@@ -49,13 +49,12 @@ class _MainOnBoardingScreenState extends State<MainOnBoardingScreen> {
                   child: SmoothPageIndicator(
                     controller: controller,
                     count: 5,
-                    effect: const JumpingDotEffect(
+                    effect: const ExpandingDotsEffect(
                       dotColor: Colors.white,
                       activeDotColor: Colors.orangeAccent,
                       dotHeight: 16,
                       dotWidth: 16,
-                      jumpScale: .7,
-                      verticalOffset: 15,
+
                     ),
                   ),
                 )
